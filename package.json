@@ -1,0 +1,22 @@
+{
+  "name": "GLM",
+  "displayName": "col",
+  "description": "Just some cool color theme",
+  "version": "0.0.1",
+  "icon": "colour.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "glm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/glm-color-theme.json"
+      }
+    ]
+  }
+}
